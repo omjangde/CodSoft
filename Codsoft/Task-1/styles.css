@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Fallback background color */
+  background-image: url('gym.jpg'); /* Replace with the URL of your background image */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+main {
+  padding: 5px;
+}
+
+.container {
+  color: white;
+  width: 1200px;
+  margin: 5px;
+}
+.foot{
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+h3{
+  color: yellow;
+}
+
+#services p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #ff5500;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#home {
+  display: inline-block;
+  /* border: 2px solid red; */
+  /* background-color: #f5f5f5; */
+  text-align: center;
+  padding: 40px auto;
+}
+
+#home a:hover{
+  text-decoration: underline;
+  background-color: white;
+  color: red;
+}
+
+#about {
+  display: inline-block;
+  margin: 30px auto;
+  /* border: 2px solid red; */
+  /* background-color: #eee; */
+  padding: 40px 0;
+}
+#about h4{
+  color: yellow;
+}
+.container img{
+  position:absolute;
+  left: 800px;
+  bottom: -400px;
+  border-radius: 500px;
+}
+#about a img{
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#services {
+  padding: 40px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.service {
+  /* border: 2px solid red; */
+  /* background-color:bisque; */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  /* background-color: #333; */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
